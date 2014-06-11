@@ -1,6 +1,6 @@
 # labeled-stream-splicer
 
-[splicable stream pipeline](https://npmjs.org/package/stream-splicer) with labels
+[stream splicer](https://npmjs.org/package/stream-splicer) with labels
 
 # example
 
