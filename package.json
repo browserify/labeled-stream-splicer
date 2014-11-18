@@ -1,6 +1,6 @@
 {
   "name": "labeled-stream-splicer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stream splicer with labels",
   "main": "index.js",
   "dependencies": {
