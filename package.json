@@ -9,10 +9,10 @@
     "stream-splicer": "^2.0.0"
   },
   "devDependencies": {
-    "tape": "^2.12.1",
-    "browser-pack": "^2.0.1",
+    "browser-pack": "^6.0.4",
     "concat-stream": "^1.4.6",
-    "module-deps": "^2.1.2",
+    "module-deps": "^6.0.0",
+    "tape": "^2.12.1",
     "through2": "^1.0.0"
   },
   "scripts": {
