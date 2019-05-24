@@ -19,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/labeled-stream-splicer.git"
+    "url": "git://github.com/browserify/labeled-stream-splicer.git"
   },
-  "homepage": "https://github.com/substack/labeled-stream-splicer",
+  "homepage": "https://github.com/browserify/labeled-stream-splicer",
   "keywords": [
     "splice",
     "stream",
