@@ -10,7 +10,21 @@ node_js:
   - "0.12"
   - "0.10"
   - "0.8"
+
+arch:
+  - amd64
+  - ppc64le
+  
 before_install:
   # Old npm certs are untrusted https://github.com/npm/npm/issues/20191
   - 'if [ "${TRAVIS_NODE_VERSION}" = "0.6" ] || [ "${TRAVIS_NODE_VERSION}" = "0.8" ]; then export NPM_CONFIG_STRICT_SSL=false; fi'
-  - 'nvm install-latest-npm'
+  - 'nvm install-latest-npm'   
+
+jobs:
+  exclude:
+   - arch: ppc64le
+     node_js: "0.8"
+   - arch: ppc64le
+     node_js: "0.10"
+   - arch: ppc64le
+     node_js: "0.12"
