@@ -4,7 +4,6 @@
   "description": "stream splicer with labels",
   "main": "index.js",
   "dependencies": {
-    "inherits": "^2.0.1",
     "stream-splicer": "^2.0.0"
   },
   "devDependencies": {
